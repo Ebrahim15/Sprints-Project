@@ -10,12 +10,8 @@ export const productsSlice = createSlice({
     reducers: {
         addProduct: (state, action) => {
             state.products.push(action.payload)
-<<<<<<< HEAD
             // ABCDEF
-||||||| 2ff1a7a
-=======
             // XYZ
->>>>>>> bf50217f93bcdd8708eb6dddda9689c92caeffa9
         },
     },
 })
